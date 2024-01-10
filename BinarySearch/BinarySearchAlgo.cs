@@ -16,13 +16,14 @@
                 {
                     return mid;
                 }
-                else if (guess<item)
+                else if (guess>item)
                 {
-                    low = mid+1;
+                    high = mid - 1;
+                    
                 }
                 else
                 {
-                    high = mid-1;
+                    low = mid + 1;
                 }
 
             }
