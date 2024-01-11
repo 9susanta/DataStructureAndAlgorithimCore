@@ -1,0 +1,17 @@
+﻿Big O notation
+---------------------------------------------------
+Algorithim
+-----------
+Binary Search : O(log n);
+
+Data Structure
+--------------
+1. Array
+Reading : O(1)
+Insert : O(n)
+Delete: O(n)
+
+2. Linked List
+Reading : O(n)
+Insert : O(1)
+Delete: O(1)
