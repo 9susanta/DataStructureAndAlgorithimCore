@@ -1,17 +1,19 @@
-﻿namespace DataStructureAndAlgorithimCore
+﻿using SelectionSort;
+
+namespace DataStructureAndAlgorithimCore
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Algorith Practice!");
-            for (int i = 0; i < 12; i++)
-            {
-                int k = BinarySearch.BinarySearchAlgo.BinarySearchOperation([1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11], i);
 
-                Console.WriteLine(k);
+            var newArray=SelectionSortAlgo.GetArraySelectionSort([1, 4, 6, 8, 4, 5, 6, 4, 3, 11, 23, 0, -1, 5, 4]);
+            foreach (var item in newArray)
+            {
+                Console.WriteLine(item);
             }
-            
+
         }
     }
 }
