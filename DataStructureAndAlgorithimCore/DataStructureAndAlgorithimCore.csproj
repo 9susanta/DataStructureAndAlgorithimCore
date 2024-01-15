@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BinarySearch\BinarySearch.csproj" />
     <ProjectReference Include="..\SelectionSort\SelectionSort.csproj" />
+    <ProjectReference Include="..\SumArrayDivideNConquer\SumArrayDivideNConquer.csproj" />
   </ItemGroup>
 
 </Project>

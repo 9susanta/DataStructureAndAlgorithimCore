@@ -8,11 +8,8 @@ namespace DataStructureAndAlgorithimCore
         {
             Console.WriteLine("Algorith Practice!");
 
-            var newArray=SelectionSortAlgo.GetArraySelectionSort([1, 4, 6, 8, 4, 5, 6, 4, 3, 11, 23, 0, -1, 5, 4]);
-            foreach (var item in newArray)
-            {
-                Console.WriteLine(item);
-            }
+            var sum = SumArrayDivideNConquer.SumArray.Sum([1, 4, 6,8]);
+            Console.WriteLine(sum);
 
         }
     }
