@@ -1,4 +1,5 @@
-﻿using SelectionSort;
+﻿
+using QuickSort;
 
 namespace DataStructureAndAlgorithimCore
 {
@@ -8,8 +9,8 @@ namespace DataStructureAndAlgorithimCore
         {
             Console.WriteLine("Algorith Practice!");
 
-            var sum = SumArrayDivideNConquer.SumArray.Sum([1, 4, 6,8]);
-            Console.WriteLine(sum);
+            var sum = QuickSortAlgo.QuickSort([1, 7, 3,0,6,8,2]);
+            Console.WriteLine(string.Join(",",sum));
 
         }
     }
