@@ -3,7 +3,8 @@
 Algorithim
 -----------
 Binary Search : O(log n);
-
+Quick Sort : Uses Devide and Conquer Algorithm which is devide and process. Its has 3 component one is pivot number, Then sub-array/list will hold all lesser number in one, greater number in another.
+Sorting Algorithing depends on the constant in Big O notation. Mostly denotated with K
 Data Structure
 --------------
 1. Array
@@ -15,3 +16,5 @@ Delete: O(n)
 Reading : O(n)
 Insert : O(1)
 Delete: O(1)
+
+

@@ -9,9 +9,10 @@ namespace DataStructureAndAlgorithimCore
         {
             Console.WriteLine("Algorith Practice!");
 
-            var sum = QuickSortAlgo.QuickSort([1, 7, 3,0,6,8,2]);
-            Console.WriteLine(string.Join(",",sum));
+            int[] numbers = Enumerable.Range(0, 5000).ToArray();
+            var sum = QuickSortAlgo.QuickSort(numbers);
 
+            Console.WriteLine(string.Join(",",sum));
         }
     }
 }
