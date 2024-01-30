@@ -1,5 +1,6 @@
 ﻿
-using QuickSort;
+
+using InsertionSort;
 
 namespace DataStructureAndAlgorithimCore
 {
@@ -8,11 +9,11 @@ namespace DataStructureAndAlgorithimCore
         static void Main(string[] args)
         {
             Console.WriteLine("Algorith Practice!");
+            int[] arr = InsertionSortMaker.GetInsertionSort([3, 5, 6, 2, 9, 6, 5, 8, 1, 0]);
 
-            int[] numbers = Enumerable.Range(0, 5000).ToArray();
-            var sum = QuickSortAlgo.QuickSort(numbers);
 
-            Console.WriteLine(string.Join(",",sum));
+
+            Console.WriteLine(string.Join(",", arr));
         }
     }
 }
