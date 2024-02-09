@@ -1,5 +1,6 @@
 ﻿
 
+using DataStructureAndAlgorithimCore.Array;
 using InsertionSort;
 
 namespace DataStructureAndAlgorithimCore
@@ -9,11 +10,11 @@ namespace DataStructureAndAlgorithimCore
         static void Main(string[] args)
         {
             Console.WriteLine("Algorith Practice!");
-            int[] arr = InsertionSortMaker.GetInsertionSort([3, 5, 6, 2, 9, 6, 5, 8, 1, 0]);
+            char[] arr = ArrayOperations.ArrayReverse(("Susanta Kumar Rout").ToArray());
 
 
 
-            Console.WriteLine(string.Join(",", arr));
+            Console.WriteLine(string.Join("", arr));
         }
     }
 }
